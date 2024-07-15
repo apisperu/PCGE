@@ -1,0 +1,57 @@
+[
+    {
+        "descripcion": "Aperturamos un cuenta corriente en soles a nombre de nuestra entidad a causa de las aportaciones de sus accionistas en efectivo, el importe asciende a S/ 180000. Por el depósito de dinero  en nuestra cuenta corriente, el banco nos descuenta 0.005% por tributo del ITF (S/ 9)",
+        "fechaCreacion": 1721019348,
+        "fechaActualizacion": 1721019348,
+        "asientos": [
+            {
+                "glosa": "x/x por la apertura de la cuenta corriente de los aportes de los accionistas.",
+                "fechaOperacion": 1721019348,
+                "cuentas": [
+                    {
+                        "codigo": "1041",
+                        "descripcion": "Cuentas corrientes operativas",
+                        "debe": 180000.00
+                    },
+                    {
+                        "codigo": "101",
+                        "descripcion": "Caja",
+                        "haber": 180000.00
+                    }
+                ]
+            },
+            {
+                "glosa": "x/x por el descuento del ITF(Impuesto a las transacciones financieras)",
+                "fechaOperacion": 1721019348,
+                "cuentas": [
+                    {
+                        "codigo": "6412",
+                        "descripcion": "Impuesto a las transacciones financieras",
+                        "debe": 9.00
+                    },
+                    {
+                        "codigo": "104",
+                        "descripcion": "Cuentas corrientes en instituciones financieras",
+                        "haber": 9.00
+                    }
+                ]
+            },
+            {
+                "glosa": "x/x por la transferencia al centro de gastos.",
+                "fechaOperacion": 1721019348,
+                "cuentas": [
+                    {
+                        "codigo": "974",
+                        "descripcion": "Pérdida",
+                        "debe": 9.00
+                    },
+                    {
+                        "codigo": "791",
+                        "descripcion": "Cargas imputables a cuentas de costos y gastos",
+                        "haber": 9.00
+                    }
+                ]
+            }
+        ]
+    }
+]
